@@ -1,0 +1,35 @@
+nav {
+    padding: 60px;
+
+    color: var(--white-color);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 50px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+.nav-link {
+    max-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-logo {
+    width: 234px;
+}
+
+.nav-icon {
+    height: 21px;
+}

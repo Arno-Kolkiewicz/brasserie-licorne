@@ -1,0 +1,96 @@
+.swiper {
+    color: var(--yellow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+
+    width: 100%;
+
+    background: conic-gradient(from 270deg at 46.79% 100%, #080808 0deg, #5C3D1E 360deg);
+    height: 1500px;
+
+    overflow: hidden;
+}
+
+.swiper-rectangle-background { 
+    width: 552px;
+    height: 240px;
+    transform: rotate(-30deg);
+
+    position: absolute;
+    top: -90px;
+    left: -97px;
+
+    background: var(--green);
+}
+
+.swiper-title {
+    color: var(--neutral);
+    font-family: Inter;
+    font-size: 282px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 90px;
+    z-index: 0;
+}
+
+.swiper-subtitle {
+    margin-top: 296px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+    font-family: Inter;
+    font-size: 188px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}
+
+.swiper-bottle-container{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    z-index: 2;
+    overflow: visible;
+}
+
+.swiper img {
+    max-height: 792px;
+}
+
+.swiper-button {
+    margin-top: 30px;
+    transform: translate(38px,-140px);
+}
+
+
+.swiper-bottle-position-top-left {
+    width: 184px;
+    position: absolute;
+    left: 69px;
+    top: -182px;
+    transform: rotate(33deg);
+}
+
+.swiper-bottle-position-center {
+    position: relative;
+    top: 7%;
+    left: 35%;
+    transform: rotate(15deg);
+}
+
+.swiper-bottle-position-bottom-right {
+    width: 186px;
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+    transform: rotate(-12deg);
+}

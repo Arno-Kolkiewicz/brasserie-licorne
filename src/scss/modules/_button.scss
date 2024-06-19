@@ -1,0 +1,29 @@
+.button {
+    display: flex;
+    width: 70px;
+    padding: 10px 25px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    background: none;
+
+    border-radius: 30.569px;
+    border: 1px solid #FFF;
+}
+
+.button-arrow {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--white);
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+}
+
+.button-square-top {
+
+}
+
+.button-square-bottom {
+
+}
