@@ -1,0 +1,20 @@
+.section {
+    height: 100vh;
+}
+
+
+.section-bckg-degrader {
+    background: conic-gradient(from 270deg at 46.79% 100%, #080808 0deg, #5C3D1E 360deg);
+}
+
+.section-produit {
+    padding: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-produit p {
+    width: 70%;
+}
+

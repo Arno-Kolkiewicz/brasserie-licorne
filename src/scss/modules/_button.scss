@@ -1,6 +1,5 @@
 .button {
     display: flex;
-    width: 70px;
     padding: 10px 25px;
     justify-content: flex-end;
     align-items: center;
@@ -8,7 +7,17 @@
     background: none;
 
     border-radius: 30.569px;
-    border: 1px solid #FFF;
+    border: 1px solid var(--white);
+
+    color: var(--white);
+
+    font-family: Inter;
+    font-size: 12px;
+    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .button-arrow {

@@ -1,0 +1,15 @@
+.title {
+    color: var(--yellow-secondary, #DCA63D);
+
+    /* titel */
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.title-color-white {
+    color: var(--white);
+}

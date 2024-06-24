@@ -1,0 +1,18 @@
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.newsletter-container {
+    padding: 50px 230px;
+
+    background: var(--green);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}

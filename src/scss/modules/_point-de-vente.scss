@@ -1,0 +1,39 @@
+.point-de-vente {
+    padding: 10vh 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/deux-biere.jpg"), #0000009a;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+.point-de-vente h4 {
+    margin-bottom: 15vh;
+}
+
+.point-de-vente-container {
+    width: 100%;
+    display: flex;
+    gap: 10vh;
+
+}
+
+.point-de-vente-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+}
+
+.point-de-vente-sponsor {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.point-de-vente button {
+    margin-top: 80px;
+}

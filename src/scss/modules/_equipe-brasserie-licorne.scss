@@ -1,0 +1,23 @@
+.equipe-brasserie-licorne {
+    padding: 150px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.equipe-brasserie-licorne h4 {
+    margin-bottom: 100px;
+}
+
+.equipe-brasserie-licorne p {
+    width: 50%;
+}
+
+.equipe-brasserie-licorne-text-align-self-flexstart {
+    align-self: flex-start;
+}
+
+.equipe-brasserie-licorne-text-align-self-flexend {
+    align-self: flex-end;
+}
